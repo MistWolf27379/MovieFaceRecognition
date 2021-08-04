@@ -22,7 +22,7 @@ def findencodings(images):
     return encodeList
 
 encodeListKnown=findencodings(images)
-vid=cv2.VideoCapture(0)
+vid=cv2.VideoCapture('Face Recognition in Movies/Videos/DRIVETrailer.mp4')
 
 while True:
     success,video = vid.read()
